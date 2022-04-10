@@ -1,5 +1,6 @@
 body{
   background-color: rgb(51, 62, 71);
+  background-image: url('https://live.staticflickr.com/5110/5660743377_5278a0ee06_w.jpg');
   display: flex;
   justify-content: center;
   padding: 0;
