@@ -14,7 +14,7 @@ const Central = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    border: 15px solid #fff;
     h1{
         margin-top: 0;
         margin-bottom: 0;
@@ -69,7 +69,7 @@ const Central = styled.div`
             }
         }
         .temperaturas{
-            background-image: url('https://image.flaticon.com/icons/png/128/1165/1165619.png');
+            background-image: url('https://i.pinimg.com/550x/3a/c2/92/3ac2928f1b13d23aaaff2211870e8f17.jpg');
             font-size: 2rem;
             :hover{
                 transform: scale(1.1);
