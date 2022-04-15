@@ -30,7 +30,7 @@ export default function Money(){
     return (
         <Fragment>
             <Central>
-                <h1>CONVERSOR UNIVERSAL </h1>
+                <h1>CONVERSOR UNIVERSAL</h1>
                 <div>
                     <div className='value1'>
 
