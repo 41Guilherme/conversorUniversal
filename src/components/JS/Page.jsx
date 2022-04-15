@@ -46,8 +46,8 @@ const Central = styled.div`
             font-family: "Times New Roman";
             :hover{
                 transform: scale(1.1);
-                box-shadow: inset 0 0 1em black, 0 0 2em green;
-                color: green;
+                box-shadow: inset 0 0 1em black, 0 0 2em yellow;
+                color: yellow;
             }
         }
         .medidas{
@@ -55,8 +55,8 @@ const Central = styled.div`
             font-size: 2.5rem;
             :hover{
                 transform: scale(1.1);
-                box-shadow: inset 0 0 1em black, 0 0 2em blue;
-                color: blue;
+                box-shadow: inset 0 0 1em black, 0 0 2em yellow;
+                color: yellow;
             }
         }
         .pesos{
@@ -64,8 +64,8 @@ const Central = styled.div`
             font-size: 3rem;
             :hover{
                 transform: scale(1.1);
-                box-shadow: inset 0 0 1em black, 0 0 2em red;
-                color: red;
+                box-shadow: inset 0 0 1em black, 0 0 2em yellow;
+                color: yellow;
             }
         }
         .temperaturas{
