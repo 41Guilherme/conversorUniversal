@@ -38,11 +38,13 @@ export default function Money(){
                       
                         <select onChange={(e) => setType1(e.target.value)}>
                             <option></option>
-                            <option value='USD'>Dolar</option>
+                            <option value='USD'>Dolar Americano</option>
                             <option value='BRL'>Real</option>
                             <option value='EUR'>Euro</option>
-                            <option value='RUB'>Rublo</option>
-                            <option value='JPY'>Yene</option>
+                            <option value='GBP'>Libra Esterlina</option>
+                            <option value='RUB'>Rublo Russo</option>
+                            <option value='JPY'>Yene [Japão]</option>
+                            <option value='CNY'>Renminbi [China]</option>
                         </select>
                         <hr/>
                         <h2>Coloque o Valor a ser convertido</h2>
@@ -54,11 +56,13 @@ export default function Money(){
                         
                         <select onChange={(e) => setType2(e.target.value)}>
                             <option></option>
-                            <option value='USD'>Dolar</option>
+                            <option value='USD'>Dolar Americano</option>
                             <option value='BRL'>Real</option>
                             <option value='EUR'>Euro</option>
-                            <option value='RUB'>Rublo</option>
-                            <option value='JPY'>Yene</option>
+                            <option value='GBP'>Libra Esterlina</option>
+                            <option value='RUB'>Rublo Russo</option>
+                            <option value='JPY'>Yene [Japão]</option>
+                            <option value='CNY'>Renminbi [China]</option>
                         </select>
                         <hr/>
                         <h2>Resultado do Valor da Moeda Convertida</h2>
