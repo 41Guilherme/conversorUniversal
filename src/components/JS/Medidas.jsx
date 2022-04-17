@@ -1,12 +1,13 @@
 import React, { Fragment, useState } from 'react';
 import styled from 'styled-components';
 import {Link, useHistory} from "react-router-dom";
-import { useStates } from './provider';
 import { Central } from '../styles/styledPage';
-import axios, { Axios } from 'axios';
 
 export default function Medidas(){
     const history = useHistory()
+
+    const [peso1, setPeso1] = useState(1)
+    const [peso2, setPeso2] = useState(1)
     return (
         <Fragment>
             <Central>
@@ -32,7 +33,7 @@ export default function Medidas(){
                         </select>
                         <hr/>
                         <h2>Resultado do Valor da Medida convertida</h2>
-                        <input type="number" onChange={(e) =>console.log(e.target.value)} ></input>
+                        <input onChange={(e) =>console.log(e.target.value)} ></input>
                     </div>
                 </div>
                 <footer> 
